@@ -2,7 +2,7 @@
     "app-id": "org.gabmus.swatch",
     "command": "swatch",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "42",
+    "runtime-version": "44",
     "sdk": "org.gnome.Sdk",
     "finish-args": [
         "--device=dri",
@@ -18,7 +18,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-                    "commit": "e3a37893a8709aa3d6a571ecb5a3f690da0ef82d"
+                    "tag": "v0.6.0"
                 }
             ]
         },
@@ -33,7 +33,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GabMus/swatch",
-                    "tag": "1.0"
+                    "tag": "1.1"
                 }
             ]
         }
