@@ -37,6 +37,10 @@
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GabMus/swatch",
                     "tag": "1.1"
+                },
+                {
+                    "type": "patch",
+                    "path": "fix-appdata.patch"
                 }
             ]
         }
