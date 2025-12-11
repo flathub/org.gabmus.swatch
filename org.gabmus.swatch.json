@@ -2,7 +2,7 @@
     "app-id": "org.gabmus.swatch",
     "command": "swatch",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "47",
+    "runtime-version": "49",
     "sdk": "org.gnome.Sdk",
     "finish-args": [
         "--device=dri",
@@ -11,20 +11,6 @@
         "--socket=wayland"
     ],
     "modules": [
-        {
-            "name": "blueprint-compiler",
-            "buildsystem": "meson",
-            "cleanup": [
-                "*"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-                    "tag": "v0.6.0"
-                }
-            ]
-        },
         {
             "name": "swatch",
             "buildsystem": "meson",
