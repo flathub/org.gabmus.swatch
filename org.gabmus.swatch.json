@@ -2,7 +2,7 @@
     "app-id": "org.gabmus.swatch",
     "command": "swatch",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "49",
+    "runtime-version": "50",
     "sdk": "org.gnome.Sdk",
     "finish-args": [
         "--device=dri",
@@ -22,7 +22,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GabMus/swatch",
-                    "tag": "1.1"
+                    "tag": "1.1",
+                    "commit": "9f790fdcefae156cd35e26ecb24a435de8d4cfad"
                 },
                 {
                     "type": "patch",
